@@ -1,0 +1,176 @@
+.mainbanner {
+  background-color: var(--red-color);
+}
+.banner-text div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3em;
+}
+.banner-text div h1 span {
+  background-color: black;
+  padding: 0 8px;
+}
+.get-started-btn {
+  font-weight: 600;
+}
+@media only screen and (max-width: 768px) {
+  .banner-text div {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3em;
+  }
+  .banner-text h1 {
+    font-size: 2rem;
+  }
+  .banner-text h6 {
+    font-size: 1.25rem;
+  }
+  .banner-text .get-started-btn {
+    padding: 0.5rem 4.75rem;
+  }
+}
+
+/* Sub banner */
+.sub-ban-item {
+  width: 140px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-ban-item img {
+  height: 5.38rem;
+}
+.sub-ban-item p {
+  text-align: center;
+  font-weight: 600;
+  padding-top: 5px;
+}
+
+.registration {
+  color: var(--text-black-color);
+  text-decoration: none;
+}
+.registration:hover {
+  color: var(--text-black-color);
+  text-decoration: none;
+}
+
+.registration .registration-img {
+  width: 45%;
+}
+.registration-text {
+  width: 55%;
+}
+
+.registration .registration-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.registration .registration-text h5 span {
+  color: var(--text-red-color);
+}
+
+.vendor-get-started {
+  padding: 2.5rem 4rem;
+  border: 1px solid #9c9c9c;
+  border-radius: 0.75rem;
+}
+.vendor-get-started h3 {
+  font-weight: 600;
+}
+.vendor-get-started button {
+  color: white;
+  background-color: #e03111;
+  padding: 0.75rem 1.25rem;
+}
+
+.faq-list {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  min-height: 28rem;
+  max-height: 28rem;
+}
+.review-slider {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  min-height: 28rem;
+  max-height: 28rem;
+}
+
+.rating-box {
+  background-image: url("../images/icons/carbon_quotes.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.rating-name {
+  color: var(--text-red-color);
+}
+
+/* -------- media query ------------------------- */
+@media only screen and (max-width: 990px) {
+  .banner-text div {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3em;
+  }
+  .banner-text .get-started-btn {
+    padding: 0.5rem 4.75rem;
+  }
+  .rg-garage {
+    margin-bottom: 0.5em;
+  }
+  .rg-vandor {
+    margin-top: 0.5em;
+  }
+  .help-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .review-slider {
+    margin-top: 1em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sub-ban-item img {
+    height: 4.38rem;
+  }
+
+  .registration .registration-img {
+    width: 35%;
+    font-size: 0.75rem;
+  }
+  .registration-text {
+    width: 65%;
+    font-size: 0.75rem;
+  }
+  .help-section {
+    padding: 1rem !important;
+  }
+  .help-section h2 {
+    font-size: 1.25rem;
+  }
+
+  .vendor-get-started {
+    padding: 1.5rem 3rem;
+  }
+  .vendor-get-started h3 {
+    font-size: 1rem;
+  }
+}

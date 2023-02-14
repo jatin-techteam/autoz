@@ -1,0 +1,226 @@
+* {
+  overflow-x: visible;
+}
+.vendor-banner {
+  background: var(--z-black-color);
+  padding-bottom: 4em;
+}
+.vendor_banner-area {
+  display: flex;
+  justify-content: center;
+}
+.vendor_banner_text h2 {
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+.vendor_banner_text h1 {
+  font-size: 4.25rem;
+  font-weight: 700;
+}
+.vendor_banner_text p {
+  font-weight: 500;
+}
+
+.vendor_signup_link {
+  background: #ffffff;
+  box-shadow: 0 0.25rem 1.25rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.35rem;
+  padding: 2rem 5.3rem;
+  width: 1107px;
+  position: relative;
+  top: -3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.register-shop-btn {
+  border-right: 1px solid #9c9c9c;
+  width: 50%;
+}
+.register-shop-login {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.register-shop-login button {
+  color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #e03111;
+}
+
+.business-solution {
+  padding: 4.25em 0;
+}
+.business-solution h1 {
+  font-weight: 600;
+}
+.business-solution li {
+  font-weight: 600;
+}
+
+/* start_now */
+.start_now {
+  background-color: #efefef;
+  padding: 5.8em 5.4em;
+}
+.start_now .start-now-gradiant {
+  color: white;
+  padding: 3.5rem 2rem 2rem 2rem;
+  background-image: linear-gradient(
+      89.88deg,
+      #1d1d1b 0.09%,
+      rgba(255, 255, 255, 0.13) 94.88%
+    ),
+    url(../images/parts_bg-img.svg);
+  box-shadow: 0 0.25rem 1.25rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.8rem;
+}
+.flow-section {
+  padding: 1em 0;
+}
+.process-flow {
+  padding-left: 0.25em;
+  padding-top: 1.5em;
+  padding-bottom: 1.25em;
+  border-left: 0.25em solid #263238;
+  border-radius: 1px;
+}
+.steps-flow {
+  margin-top: 0.75em;
+  display: flex;
+  align-items: center;
+}
+.steps-flow img {
+  position: relative;
+  left: -3.125rem;
+}
+.review-slider {
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); */
+  min-height: 28rem;
+  max-height: 28rem;
+}
+.rating-box {
+  background-image: url("../images/icons/carbon_quotes.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.rating-name {
+  color: var(--text-red-color);
+}
+.faq-list {
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); */
+  min-height: 31em;
+  max-height: 31em;
+  overflow: auto;
+}
+/* -------- media query ------------------------- */
+@media only screen and (max-width: 990px) {
+  .vendor_banner-area {
+    flex-direction: column-reverse;
+    padding-top: 2em;
+  }
+  .vendor_banner_text h2 {
+    padding: 0;
+    font-size: 2.25rem;
+    font-weight: 600;
+  }
+  .vendor_banner_text h1 {
+    padding: 0;
+    font-size: 3.25rem;
+    font-weight: 700;
+  }
+  .vendor_signup_link {
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .register-shop-btn {
+    border-right: 0 solid #9c9c9c;
+    width: 80%;
+  }
+  .register-shop-login {
+    width: 80%;
+    text-align: center;
+    padding-top: 1em;
+  }
+  .why-register-text h1 {
+    font-size: 2rem;
+  }
+  .why-register-text p {
+    font-size: 1rem;
+  }
+  .review-slider {
+    margin-top: 1em;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  }
+  .what-vendor-say {
+    padding-top: 1em;
+  }
+  .faq-list-vendor {
+    padding-top: 1em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .vendor_banner-area {
+    padding-top: 4em;
+  }
+  .vendor_banner_text h2 {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  .vendor_banner_text h1 {
+    margin: 0;
+  }
+  .vendor_signup_link {
+    padding: 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .register-shop-btn {
+    width: 100%;
+  }
+  .register-shop-login {
+    width: 100%;
+    padding-top: 0.75em;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .register-shop-login a {
+    padding-top: 0.5em;
+  }
+  .why-register-text h1 {
+    font-size: 1.5rem;
+  }
+  .why-register-text p {
+    font-size: 0.75rem;
+  }
+  .start_now {
+    background-color: #efefef;
+    padding: 1.8em 1.4em;
+  }
+  .start_now .start-now-gradiant {
+    padding: 1rem;
+  }
+  .process-flow {
+    margin-left: 2em;
+  }
+  .faq-list-vendor {
+    padding-top: 1em;
+  }
+  .help-section-vendor {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+}

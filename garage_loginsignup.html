@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GMS - Garage Management System</title>
+    <!-- Bootstrap v5 -->
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <script src="./assets/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+    <!-- ------------------------------------------------------------------- -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- --------------------------------------------------------------------- -->
+
+    <!-- General CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- Page CSS -->
+    <link rel="stylesheet" href="./assets/css/vendor_loginsignup.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header id="nav_header" class="full_nav">
+      <div class="header">
+        <div class="">
+          <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">
+                <img src="./assets/images/autoz_logo.svg" alt="logo" />
+              </a>
+              <span
+                class="navbar-toggler border-0"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <img src="./assets/images/icons/nav_menu_btn.svg" alt="" />
+              </span>
+              <div class="collapse navbar-collapse float-end" id="navbarScroll">
+                <div class="ms-auto">
+                  <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active nav-text font600"
+                        aria-current="page"
+                        href="aboutus.html"
+                        >About Us</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active nav-text font600"
+                        aria-current="page"
+                        href="contactus.html"
+                        >Contact Us</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active nav-text font600"
+                        aria-current="page"
+                        href="login_signup.html"
+                      >
+                        <img
+                          src="./assets/images/icons/ic_login.svg"
+                          height="30"
+                          alt=""
+                        />
+                        Log In / Sign Up</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div style="height: 70px"></div>
+    </header>
+    <!-- SignUp Form -->
+    <section class="container vendor-signup-section">
+      <div class="col-lg-7 signup-img">
+        <img
+          src="assets/images/amico.svg"
+          class="img-fluid"
+          alt="Garage_Car_Accessories"
+        />
+      </div>
+      <div class="col-lg-5 col-md-10 col-sm-12 register-form">
+        <div class="vendor-registration-form bg-white p-3">
+          <h5 class="fw-bolder m-0">Register</h5>
+          <form
+            class="reg_form"
+            method="get"
+            action="http://localhost:5501/registration_first.html"
+          >
+            <div class="form-outline">
+              <label class="form-label m-0 pt-1" for="reg_form"
+                >Owner's Name</label
+              >
+              <input
+                type="name"
+                name="owner_name"
+                id="reg_form"
+                class="form-control m-0"
+                placeholder="Enter Full Name"
+              />
+            </div>
+
+            <div class="form-outline">
+              <label class="form-label m-0 pt-1" for="reg_form"
+                >Garage Name</label
+              >
+              <input
+                type="name"
+                name="g_name"
+                id="reg_form"
+                class="form-control"
+                placeholder="Enter Shop Name"
+              />
+            </div>
+            <label class="contact_label form-label m-0 pt-1" for="reg_form"
+              >Contact</label
+            >
+            <div class="contact_field input-group">
+              <span class="input-group-text" id="addon-wrapping">+91 |</span>
+              <input
+                type="text"
+                name="contact"
+                id="reg_form"
+                class="form-control"
+                placeholder="XXXXX XXXXX"
+                aria-label="Search"
+                aria-describedby="addon-wrapping"
+              />
+            </div>
+            <div class="pt-2 d-flex">
+              <div class="pe-1 w-75">
+                <input
+                  type="name"
+                  name="g_name"
+                  id="reg_form"
+                  class="form-control w-100"
+                  placeholder="Enter OTP"
+                />
+              </div>
+              <button class="btn btn-primary w-25 get-otp-btn">Get OTP</button>
+            </div>
+            <div class="pt-2 d-flex justify-content-between">
+              <div class="h-100 border-0 form-control w-25 text-center">
+                <span class="pe-1 text-decoration-line-through">asygdfg</span>
+              </div>
+              <button class="w-25 btn p-0 m-0">
+                <img
+                  src="./assets/images/icons/grommet-icons_update.svg"
+                  alt=""
+                />
+              </button>
+              <div class="ps-1 w-50">
+                <input
+                  type="name"
+                  name="g_name"
+                  id="reg_form"
+                  class="form-control w-100"
+                  placeholder="Enter OTP"
+                />
+              </div>
+            </div>
+            <div class="pt-2 d-flex justify-content-center align-items-center">
+              <button class="btn btn-success ps-4 pe-4">
+                Register Your Garage
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-dark fixed-bottom">
+      <div class="footer-terms-rights">
+        <div class="container">
+          <nav class="navbar d-flex justify-content-center">
+            <span class="navbar-text text-white-50"
+              >© 2023 Autoz365 | All Rights Reserved</span
+            >
+            <div class="ms-lg-auto">
+              <a href="" class="me-2 text-decoration-none">
+                <span class="navbar-text text-white-50 p-0">T&C</span>
+              </a>
+              <a href="" class="me-2 text-decoration-none">
+                <span class="navbar-text text-white-50 p-0">Sitemap</span>
+              </a>
+              <a href="" class="me-2 text-decoration-none">
+                <span class="navbar-text text-white-50 p-0"
+                  >Privacy Policy</span
+                >
+              </a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

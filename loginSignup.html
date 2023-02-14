@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GMS - Garage Management System</title>
+    <!-- Bootstrap v5 -->
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <script src="./assets/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+    <!-- ------------------------------------------------------------------- -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- --------------------------------------------------------------------- -->
+
+    <!-- General CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- Page CSS -->
+    <link rel="stylesheet" href="./assets/css/loginSignup.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header id="nav_header" class="full_nav">
+      <div class="header">
+        <div class="">
+          <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">
+                <img src="./assets/images/autoz_logo.svg" alt="logo" />
+              </a>
+              <span
+                class="navbar-toggler border-0"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <img src="./assets/images/icons/nav_menu_btn.svg" alt="" />
+              </span>
+              <div class="collapse navbar-collapse float-end" id="navbarScroll">
+                <div class="ms-auto">
+                  <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active nav-text font600"
+                        aria-current="page"
+                        href="aboutus.html"
+                        >About Us</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active nav-text font600"
+                        aria-current="page"
+                        href="contactus.html"
+                        >Contact Us</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active nav-text font600"
+                        aria-current="page"
+                        href="loginSignup.html"
+                      >
+                        <img
+                          src="./assets/images/icons/ic_login.svg"
+                          height="30"
+                          alt=""
+                        />
+                        Log In / Sign Up</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div style="height: 70px"></div>
+    </header>
+    <!-- Login Section -->
+    <section class="container pt-5 pb-5">
+      <div class="login-signup-section">
+        <div class="bg-white login-form p-4">
+          <h5 class="fw-bolder">Log In</h5>
+          <form>
+            <div class="mb-3">
+              <label for="contactnumber" class="form-label">Username</label>
+              <input
+                type="text"
+                placeholder="Enter username"
+                class="form-control contact_input"
+                id="contactnumber"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="contactnumber" class="form-label">Password</label>
+              <input
+                type="text"
+                class="form-control contact_input"
+                id="contactnumber"
+                placeholder="Enter your password"
+              />
+            </div>
+            <div class="mb-3">
+              <button type="button" class="btn btn-success btn-block w-100">
+                Log In
+              </button>
+            </div>
+            <a
+              href=""
+              class="text-decoration-none d-flex justify-content-center fw-bold forget-password"
+              >Forgotten password?</a
+            >
+          </form>
+        </div>
+        <div class="bg-white signup-options p-lg-4 p-md-3">
+          <div class="h-100 row m-0 d-flex justify-content-evenly flex-column">
+            <div class="col-12">
+              <a href="garage_loginsignup.html" class="bg-light rg-garage registration d-flex">
+                <div class="registration-img">
+                  <img src="./assets/images/garage_img.png" alt="" />
+                </div>
+                <div
+                  class="registration-text p-2 d-flex flex-column justify-content-center align-items-start"
+                >
+                  <h5 class="fw-bolder">
+                    Register as
+                    <span class="fw-bolder">GARAGE</span>
+                  </h5>
+                  <p class="m-0">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 pt-2">
+              <a href="vendor_loginsignup.html" class="bg-light rg-vandor registration d-flex">
+                <div class="registration-img">
+                  <img src="./assets/images/vendor_img.png" alt="" />
+                </div>
+                <div
+                  class="registration-text p-2 d-flex flex-column justify-content-center align-items-start"
+                >
+                  <h5 class="fw-bolder">
+                    Register as
+                    <span class="fw-bolder">VENDOR</span>
+                  </h5>
+                  <p class="m-0">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint.
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-dark">
+      <div class="container">
+        <div class="row m-0 pt-3">
+          <div
+            class="col-lg-6 col-md-12 d-flex justify-content-lg-start justify-content-md-center align-items-center"
+          >
+            <a class="navbar-brand ms-1" href="index.html">
+              <img
+                src="./assets/images/footerlogo.png"
+                alt="logo"
+                width="180"
+              />
+            </a>
+          </div>
+          <div
+            class="col-lg-6 col-md-12 d-flex justify-content-lg-end justify-content-md-center"
+          >
+            <div class="">
+              <form action="" method="post">
+                <div class="mb-3 mt-3">
+                  <label for="email" class="form-label text-light"
+                    >Subscribe Us</label
+                  >
+                  <div class="input-group mb-3">
+                    <input
+                      id="email"
+                      type="text"
+                      name="email"
+                      placeholder="Enter email here"
+                      class="form-control"
+                      aria-label="Default"
+                      aria-describedby="inputGroup-sizing-default"
+                      required
+                    />
+                    <div class="input-group-prepend">
+                      <button type="button" class="btn subscribe-btn">
+                        <img
+                          src="./assets/images/icons/right_arrow.png"
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row m-0 pt-3">
+          <div class="col-lg-3">
+            <h6>
+              <span class="footer-subheading">About Us</span>
+            </h6>
+            <p class="text-white-50">
+              We’re providing quality services to our customers, with the best
+              possible service and repair for all automotive needs.
+            </p>
+            <div class="mt-5 mb-2">
+              <h6>
+                <span class="footer-subheading">Our Socials</span>
+              </h6>
+
+              <div class="d-flex mt-3">
+                <a href="" class="text-decoration-none me-2">
+                  <img
+                    src="./assets/images/icons/carbon_logo-facebook.png"
+                    alt=""
+                  />
+                </a>
+                <a href="" class="text-decoration-none me-2">
+                  <img
+                    src="./assets/images/icons/ph_instagram-logo-fill.png"
+                    alt=""
+                  />
+                </a>
+                <a href="" class="text-decoration-none me-2">
+                  <img src="./assets/images/icons/mdi_twitter.png" alt="" />
+                </a>
+                <a href="" class="text-decoration-none me-2">
+                  <img src="./assets/images/icons/mdi_linkedin.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <h6>
+              <span class="footer-subheading">Categories</span>
+            </h6>
+            <ul class="list-unstyled text-white-50 footer-ul">
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">AMC Packages</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">GMS</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">Services</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">DIY</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">A Vendor</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <h6>
+              <span class="footer-subheading">Our Services</span>
+            </h6>
+            <ul class="list-unstyled text-white-50 footer-ul">
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">Scheduled Service</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">AC Service</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">Cleaning & Detailing</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="me-2 text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">Light & Fitments</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">Denting & Paintings</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">Batteries</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">Tyers</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">Windshields & Glass</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <h6>
+              <span class="footer-subheading">Blogs</span>
+            </h6>
+            <ul class="list-unstyled text-white-50 footer-ul">
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <div class="footer-links">
+                    Scheduled Service
+                    <p class="blog-text p-0 m-0">
+                      Nulla Lorem mollit cupidatat ....
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <div class="footer-links">
+                    Scheduled Service
+                    <p class="blog-text p-0 m-0">
+                      Nulla Lorem mollit cupidatat ....
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <div class="d-flex">
+              <div class="d-flex justify-content-end">
+                <img
+                  src="./assets/images/icons/address.svg"
+                  alt=""
+                  height="20"
+                  width="20"
+                />
+              </div>
+              <div class="w-75 ps-2">
+                <h6>
+                  <span class="footer-subheading">Address</span>
+                </h6>
+                <p class="text-white-50">
+                  1003-4-5, Tower-1, DLF Corporate Greens, Sector 74A, Gurugram,
+                  Haryana 122018
+                </p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="d-flex justify-content-end">
+                <img
+                  src="./assets/images/icons/ion_call.svg"
+                  alt=""
+                  height="20"
+                  width="20"
+                />
+              </div>
+              <div class="w-75 ps-2">
+                <h6>
+                  <span class="footer-subheading">Contact</span>
+                </h6>
+                <p class="text-white-50">+91 xxxx xxxxxx</p>
+                <p class="text-white-50">+91 xxxx xxxxxx</p>
+                <p class="text-white-50">+91 xxxx xxxxxx</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-terms-rights">
+        <div class="container">
+          <nav class="navbar d-flex justify-content-center">
+            <span class="navbar-text text-white-50"
+              >© 2023 Autoz365 | All Rights Reserved</span
+            >
+            <div class="ms-lg-auto">
+              <a href="" class="me-2 text-decoration-none">
+                <span class="navbar-text text-white-50 p-0">T&C</span>
+              </a>
+              <a href="" class="me-2 text-decoration-none">
+                <span class="navbar-text text-white-50 p-0">Sitemap</span>
+              </a>
+              <a href="" class="me-2 text-decoration-none">
+                <span class="navbar-text text-white-50 p-0"
+                  >Privacy Policy</span
+                >
+              </a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

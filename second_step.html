@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GMS - Garage Management System</title>
+    <!-- Bootstrap v5 -->
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <script src="./assets/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+    <!-- ------------------------------------------------------------------- -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- --------------------------------------------------------------------- -->
+
+    <!-- General CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- Page CSS -->
+    <link rel="stylesheet" href="./assets/css/second_step.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header id="nav_header" class="full_nav">
+      <div class="header">
+        <div class="">
+          <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">
+                <img src="./assets/images/autoz_logo.svg" alt="logo" />
+              </a>
+              <span
+                class="navbar-toggler border-0"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <img src="./assets/images/icons/nav_menu_btn.svg" alt="" />
+              </span>
+              <div class="collapse navbar-collapse float-end" id="navbarScroll">
+                <div class="ms-auto">
+                  <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active nav-text font600"
+                        aria-current="page"
+                        href="login_signup.html"
+                      >
+                        <img src="./assets/images/icons/mdi_bell.png" alt="" />
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active nav-text font600"
+                        aria-current="page"
+                        href="login_signup.html"
+                      >
+                        Vendor Name
+                        <select name="" class="border-0" id=""></select>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div style="height: 70px"></div>
+    </header>
+    <!-- Sub Nav -->
+    <div class="bg-white p-1 subnavbar">
+      <div class="container d-flex align-items-baseline">
+        <img src="./assets/images/icons/personal_user_ic.svg" alt="" />
+        <h5 class="fw-bolder ps-2">Complete Personal Profile</h5>
+      </div>
+    </div>
+    <!-- Main Section -->
+    <div class="container">
+      <div class="progress_bar">
+        <div class="d-flex justify-content-between">
+          <img src="./assets/images/icons/red_user.svg" alt="" />
+          <img src="./assets/images/icons/red_shop.svg" alt="" />
+          <img src="./assets/images/icons/red_tick.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="container pt-4 pb-5">
+      <div class="pt-4 pb-5">
+        <div class="col-lg-12 bg-white p-4 vendor_registration_blank">
+          <h2>Personal Details</h2>
+          <form
+            class="row g-lg-3 g-md-2"
+            method="get"
+            action="http://localhost:5500/third_step.html"
+          >
+            <div class="col-md-4">
+              <label for="fullName" class="fw-bold">Full Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="fullName"
+                placeholder="Enter Full Name"
+              />
+            </div>
+            <div class="col-md-4">
+              <label for="email" class="fw-bold">Email</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+            <div class="col-md-4">
+              <label for="inputPassword4" class="fw-bold">Upload Image*</label>
+              <input type="file" class="form-control" id="inputPassword4" />
+            </div>
+            <div class="col-md-4">
+              <label for="fullName" class="fw-bold">Primary Contact</label>
+              <input
+                type="text"
+                class="form-control"
+                id="fullName"
+                placeholder="+91 xxxxx xxxx"
+              />
+            </div>
+            <div class="col-md-4">
+              <label for="email" class="fw-bold">Alternate Contact</label>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="+91 xxxxx xxxxx"
+                id="email"
+              />
+            </div>
+            <div class="col-md-4">
+              <label for="inputPassword4" class="fw-bold">Upload Image*</label>
+              <input type="file" class="form-control" id="inputPassword4" />
+            </div>
+            <div class="col-md-4">
+              <label for="fullName" class="fw-bold">Address Line</label>
+              <input
+                type="text"
+                class="form-control"
+                id="fullName"
+                placeholder="Enter Address Line"
+              />
+            </div>
+            <div class="col-md-4">
+              <label for="email" class="fw-bold">State</label>
+              <select name="" class="form-select" id="">
+                <option value="">select state</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <label for="email" class="fw-bold">City</label>
+              <select name="" class="form-select" id="">
+                <option value="">select city</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <label for="fullName" class="fw-bold">Land Mark</label>
+              <input
+                type="text"
+                class="form-control"
+                id="fullName"
+                placeholder="Enter land mark"
+              />
+            </div>
+            <div class="col-md-4">
+              <label for="fullName" class="fw-bold">Zip Code</label>
+              <input
+                type="text"
+                class="form-control"
+                id="fullName"
+                placeholder="Enter Zip Code"
+              />
+            </div>
+            <div class="col-12 ps-5 pe-5 pt-3 pb-2">
+              <hr />
+            </div>
+            <h2>Secondary Personal Details</h2>
+            <div class="col-md-4">
+              <label for="fullName" class="fw-bold">Full Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="fullName"
+                placeholder="Enter Full Name"
+              />
+            </div>
+            <div class="col-md-4">
+              <label for="fullName" class="fw-bold">Contact</label>
+              <input
+                type="text"
+                class="form-control"
+                id="fullName"
+                placeholder="+91 xxxxx xxxxx"
+              />
+            </div>
+            <div class="col-12 d-flex justify-content-center">
+              <button type="submit" class="btn btn-success">
+                <a
+                  href="third_step.html"
+                  class="text-decoration-none text-white"
+                >
+                  Save & Proceed
+                </a>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-dark">
+      <div
+        class="footer-terms-rights fixed-bottom"
+        style="background-color: #d9d9d9"
+      >
+        <div class="container">
+          <nav class="navbar d-flex justify-content-center">
+            <!-- <span class="navbar-text text-white-50"
+              >© 2023 Autoz365 | All Rights Reserved</span
+            > -->
+            <div class="ms-lg-auto">
+              <!-- <a href="" class="me-2 text-decoration-none">
+                <span class="navbar-text text-white-50 p-0">T&C</span>
+              </a>
+              <a href="" class="me-2 text-decoration-none">
+                <span class="navbar-text text-white-50 p-0">Sitemap</span>
+              </a>
+              <a href="" class="me-2 text-decoration-none">
+                <span class="navbar-text text-white-50 p-0"
+                  >Privacy Policy</span
+                >
+              </a> -->
+              <a href="" class="me-2 text-decoration-none">
+                <span class="navbar-text text-dark p-0"
+                  >Powered by <span class="autoz_footer_text p-0">Autoz</span
+                  ><span class="a365_footer_text p-0">365</span></span
+                >
+              </a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

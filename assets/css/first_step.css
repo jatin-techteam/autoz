@@ -1,0 +1,37 @@
+.login-signup-section {
+  display: flex;
+  justify-content: space-between;
+}
+.login-form {
+  width: 40%;
+  border-radius: 0.75em;
+}
+.signup-options {
+  width: 55%;
+  border-radius: 0.75em;
+  overflow: auto;
+  max-height: 28em;
+}
+.forget-password {
+  color: var(--text-red-color);
+}
+ol li {
+  list-style-position: inside;
+}
+/* -------- media query ------------------------- */
+@media only screen and (max-width: 990px) {
+  .login-signup-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .login-form {
+    width: 100%;
+  }
+  .signup-options {
+    margin-top: 1em;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+}

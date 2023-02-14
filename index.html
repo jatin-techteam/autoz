@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GMS - Garage Management System</title>
+    <!-- Bootstrap v5 -->
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <script src="./assets/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+    <!-- ------------------------------------------------------------------- -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- --------------------------------------------------------------------- -->
+
+    <!-- General CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- Page CSS -->
+    <link rel="stylesheet" href="./assets//css/landingpage.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header id="nav_header" class="full_nav">
+      <div class="header">
+        <div class="">
+          <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">
+                <img src="./assets/images/autoz_logo.svg" alt="logo" />
+              </a>
+              <span
+                class="navbar-toggler border-0"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <img src="./assets/images/icons/nav_menu_btn.svg" alt="" />
+              </span>
+              <div class="collapse navbar-collapse float-end" id="navbarScroll">
+                <div class="ms-auto">
+                  <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active nav-text font600"
+                        aria-current="page"
+                        href="aboutus.html"
+                        >About Us</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active nav-text font600"
+                        aria-current="page"
+                        href="contactus.html"
+                        >Contact Us</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active nav-text font600"
+                        aria-current="page"
+                        href="loginSignup.html"
+                      >
+                        <img
+                          src="./assets/images/icons/ic_login.svg"
+                          height="30"
+                          alt=""
+                        />
+                        Log In / Sign Up</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div style="height: 70px"></div>
+    </header>
+    <!-- Main Banner -->
+    <section class="container-fluid mainbanner">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="banner-text h-100">
+            <div class="text-white">
+              <h1 class="heading-1">
+                List your Business for
+                <span class=""> FREE </span>
+              </h1>
+              <h6 class="heading-3">India’s First Marketplace For Garage</h6>
+              <a href="loginSignup.html">
+                <button
+                  type="button"
+                  class="btn btn-button btn-light white-btn get-started-btn"
+                >
+                  Get Started Now
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="d-flex justify-content-center align-items-end">
+            <img class="pt-2" src="./assets/images/bannner-img2.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sub-banner -->
+    <section class="container-fluid bg-white pt-3">
+      <div class="row">
+        <div
+          class="col-lg-6 col-md-6 d-flex justify-content-around align-items-center"
+        >
+          <div class="sub-ban-item">
+            <img src="./assets/images/Group 8795.png" alt="" />
+            <p>Increase your revenue</p>
+          </div>
+          <div class="sub-ban-item">
+            <img src="./assets/images/Group 8796.png" alt="" />
+            <p>Reach out to customers</p>
+          </div>
+        </div>
+        <div
+          class="col-lg-6 col-md-6 .col-sm-3 d-flex justify-content-around align-items-center"
+        >
+          <div class="sub-ban-item">
+            <img src="./assets/images/Group 8797.png" alt="" />
+            <p>Get best spare parts</p>
+          </div>
+          <div class="sub-ban-item">
+            <img src="./assets/images/Group 8798.png" alt="" />
+            <p>Increase your visibility</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- main-section start -->
+    <!-- How we can help you -->
+    <section class="container ps-2 pe-2 pt-lg-5 p-0 pt-3 pb-lg-5 pb-3">
+      <div class="row m-0">
+        <div class="col-lg-6 col-12">
+          <a
+            href="signup_garage.html"
+            class="bg-white rg-garage registration d-flex"
+          >
+            <div class="registration-img">
+              <img src="./assets/images/garage_img.png" alt="" />
+            </div>
+            <div
+              class="registration-text p-2 d-flex flex-column justify-content-center align-items-start"
+            >
+              <h5 class="fw-bolder">
+                Register as
+                <span class="fw-bolder">GARAGE</span>
+              </h5>
+              <p class="m-0">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-6 col-12">
+          <a
+            href="signup_vendor.html"
+            class="bg-white rg-vandor registration d-flex"
+          >
+            <div class="registration-img">
+              <img src="./assets/images/vendor_img.png" alt="" />
+            </div>
+            <div
+              class="registration-text p-2 d-flex flex-column justify-content-center align-items-start"
+            >
+              <h5 class="fw-bolder">
+                Register as
+                <span class="fw-bolder">VENDOR</span>
+              </h5>
+              <p class="m-0">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="row m-0 pt-4 pt-lg-5">
+        <div class="col-12">
+          <div class="bg-white p-4 help-section">
+            <h2 class="fw-bolder">How we can help you grow?</h2>
+            <div class="row help-section-category pt-lg-4">
+              <div class="col-lg-6 col-md-12 d-flex align-items-end pb-4">
+                <img src="./assets/images/icons/help1.svg" height="80" alt="" />
+                <div class="ps-4">
+                  <h4 class="p-0 m-0">Track Business</h4>
+                  <p class="p-0 m-0">Keep eye on your business.</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 d-flex align-items-end pb-4">
+                <img src="./assets/images/icons/help2.svg" height="80" alt="" />
+                <div class="ps-4">
+                  <h4 class="p-0 m-0">Manage Expense</h4>
+                  <p class="p-0 m-0">Keep eye on your business.</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 d-flex align-items-end pb-4">
+                <img src="./assets/images/icons/help3.svg" height="80" alt="" />
+                <div class="ps-4">
+                  <h4 class="p-0 m-0">Claim Settlement</h4>
+                  <p class="p-0 m-0">
+                    Settle your customers claim hassle free.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 d-flex align-items-end pb-4">
+                <img src="./assets/images/icons/help4.svg" height="80" alt="" />
+                <div class="ps-4">
+                  <h4 class="p-0 m-0">Sell Products / Services</h4>
+                  <p class="p-0 m-0">
+                    Rate your customers, so others can trust on.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 d-flex align-items-end pb-4">
+                <img src="./assets/images/icons/help5.svg" height="80" alt="" />
+                <div class="ps-4">
+                  <h4 class="p-0 m-0">Manage inventory</h4>
+                  <p class="p-0 m-0">Manage products with ease.</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 d-flex align-items-end pb-4">
+                <img src="./assets/images/icons/help6.svg" height="80" alt="" />
+                <div class="ps-4">
+                  <h4 class="p-0 m-0">Get Leads</h4>
+                  <p class="p-0 m-0">Manage products with ease.</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 d-flex align-items-end pb-4">
+                <img src="./assets/images/icons/help7.svg" height="80" alt="" />
+                <div class="ps-4">
+                  <h4 class="p-0 m-0">Manage Job Card</h4>
+                  <p class="p-0 m-0">
+                    Understand the flaws, loss, profits on a click.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 d-flex align-items-end pb-4">
+                <img src="./assets/images/icons/help8.svg" height="80" alt="" />
+                <div class="ps-4">
+                  <h4 class="p-0 m-0">Get Reports</h4>
+                  <p class="p-0 m-0">
+                    Understand the flaws, loss, profits on a click.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Become a vendor today -->
+    <!-- -------------------------------------------------------------- -->
+    <!-- <section class="container-fluid bg-white p-3 mb-lg-5 mb-3">
+      <div class="container">
+        <div
+          class="d-flex flex-column justify-content-between align-items-center vendor-get-started"
+        >
+          <h3 class="text-center">Become a vendor on Autoz365 today</h3>
+          <button type="button" class="btn">Get Started Now</button>
+        </div>
+      </div>
+    </section> -->
+    <!-- ---------------------------------------------------------------- -->
+    <section class="container ps-2 pe-2 pb-lg-5 pb-3">
+      <div class="row m-0 p-0">
+        <div class="col-lg-8 col-12">
+          <div class="bg-white p-4 faq-list">
+            <h2>FAQs</h2>
+            <div>
+              <div class="accordion border-0" id="accordionExample">
+                <div class="accordion-item border-0">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button ps-0 pe-0"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Amet minim mollit non deserunt ullamco est sit aliqua
+                      dolor do amet sint.
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong>
+                      It is shown by default, until the collapse plugin adds the
+                      appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item border-0">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed ps-0 pe-0"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Amet minim mollit non deserunt ullamco est sit aliqua
+                      dolor do amet sint.
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item border-0">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed ps-0 pe-0"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Amet minim mollit non deserunt ullamco est sit aliqua
+                      dolor do amet sint.
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item border-0">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button
+                      class="accordion-button collapsed ps-0 pe-0"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      Amet minim mollit non deserunt ullamco est sit aliqua
+                      dolor do amet sint.
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item border-0">
+                  <h2 class="accordion-header" id="headingFive">
+                    <button
+                      class="accordion-button collapsed ps-0 pe-0"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFive"
+                      aria-expanded="false"
+                      aria-controls="collapseFive"
+                    >
+                      Amet minim mollit non deserunt ullamco est sit aliqua
+                      dolor do amet sint.
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFive"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item border-0">
+                  <h2 class="accordion-header" id="headingSix">
+                    <button
+                      class="accordion-button collapsed ps-0 pe-0"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSix"
+                      aria-expanded="false"
+                      aria-controls="collapseSix"
+                    >
+                      Amet minim mollit non deserunt ullamco est sit aliqua
+                      dolor do amet sint.
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseSix"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingSix"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="bg-white p-4 review-slider">
+            <div
+              id="carouselExampleInterval"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                  <div class="rating-box">
+                    <img
+                      src="./assets/images/user_rating_img.png"
+                      height="180"
+                      alt=""
+                    />
+                    <h5 class="rating-name p-0 m-0 fw-bolder">PAWAN TANEJA</h5>
+                    <h6 class="p-0 m-0 pt-1 pb-1 fw-bolder text-center">
+                      PAWAN MOTORS, GURUGRAM
+                    </h6>
+                    <p class="m-0 p-0 pt-1 text-center">
+                      Amet minim mollit non deserunt ullamco est sit aliqua
+                      dolor do amet sint. Velit officia consequat duis enim
+                      velit mollit. Exercitation veniam consequat sunt nostrud
+                      amet.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <div class="rating-box">
+                    <img
+                      src="./assets/images/user_rating_img.png"
+                      height="180"
+                      alt=""
+                    />
+                    <h5 class="rating-name p-0 m-0 fw-bolder">PAWAN TANEJA</h5>
+                    <h6 class="p-0 m-0 pt-1 pb-1 fw-bolder text-center">
+                      PAWAN MOTORS, GURUGRAM
+                    </h6>
+                    <p class="m-0 p-0 pt-1 text-center">
+                      Amet minim mollit non deserunt ullamco est sit aliqua
+                      dolor do amet sint. Velit officia consequat duis enim
+                      velit mollit. Exercitation veniam consequat sunt nostrud
+                      amet.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <div class="rating-box">
+                    <img
+                      src="./assets/images/user_rating_img.png"
+                      height="180"
+                      alt=""
+                    />
+                    <h5 class="rating-name p-0 m-0 fw-bolder">PAWAN TANEJA</h5>
+                    <h6 class="p-0 m-0 pt-1 pb-1 fw-bolder text-center">
+                      PAWAN MOTORS, GURUGRAM
+                    </h6>
+                    <p class="m-0 p-0 pt-1 text-center">
+                      Amet minim mollit non deserunt ullamco est sit aliqua
+                      dolor do amet sint. Velit officia consequat duis enim
+                      velit mollit. Exercitation veniam consequat sunt nostrud
+                      amet.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- main-section end -->
+    <!-- Footer -->
+    <footer class="bg-dark">
+      <div class="container">
+        <div class="row m-0 pt-3">
+          <div
+            class="col-lg-6 col-md-12 d-flex justify-content-lg-start justify-content-md-center align-items-center"
+          >
+            <a class="navbar-brand ms-1" href="index.html">
+              <img
+                src="./assets/images/footerlogo.png"
+                alt="logo"
+                width="180"
+              />
+            </a>
+          </div>
+          <div
+            class="col-lg-6 col-md-12 d-flex justify-content-lg-end justify-content-md-center"
+          >
+            <div class="">
+              <form action="" method="post">
+                <div class="mb-3 mt-3">
+                  <label for="email" class="form-label text-light"
+                    >Subscribe Us</label
+                  >
+                  <div class="input-group mb-3">
+                    <input
+                      id="email"
+                      type="text"
+                      name="email"
+                      placeholder="Enter email here"
+                      class="form-control"
+                      aria-label="Default"
+                      aria-describedby="inputGroup-sizing-default"
+                      required
+                    />
+                    <div class="input-group-prepend">
+                      <button type="button" class="btn subscribe-btn">
+                        <img
+                          src="./assets/images/icons/right_arrow.png"
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row m-0 pt-3">
+          <div class="col-lg-3">
+            <h6>
+              <span class="footer-subheading">About Us</span>
+            </h6>
+            <p class="text-white-50">
+              We’re providing quality services to our customers, with the best
+              possible service and repair for all automotive needs.
+            </p>
+            <div class="mt-5 mb-2">
+              <h6>
+                <span class="footer-subheading">Our Socials</span>
+              </h6>
+
+              <div class="d-flex mt-3">
+                <a href="" class="text-decoration-none me-2">
+                  <img
+                    src="./assets/images/icons/carbon_logo-facebook.png"
+                    alt=""
+                  />
+                </a>
+                <a href="" class="text-decoration-none me-2">
+                  <img
+                    src="./assets/images/icons/ph_instagram-logo-fill.png"
+                    alt=""
+                  />
+                </a>
+                <a href="" class="text-decoration-none me-2">
+                  <img src="./assets/images/icons/mdi_twitter.png" alt="" />
+                </a>
+                <a href="" class="text-decoration-none me-2">
+                  <img src="./assets/images/icons/mdi_linkedin.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <h6>
+              <span class="footer-subheading">Categories</span>
+            </h6>
+            <ul class="list-unstyled text-white-50 footer-ul">
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">AMC Packages</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">GMS</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">Services</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">DIY</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">A Vendor</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <h6>
+              <span class="footer-subheading">Our Services</span>
+            </h6>
+            <ul class="list-unstyled text-white-50 footer-ul">
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">Scheduled Service</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">AC Service</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">Cleaning & Detailing</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="me-2 text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">Light & Fitments</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">Denting & Paintings</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">Batteries</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">Tyers</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <span class="footer-links m-0">Windshields & Glass</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <h6>
+              <span class="footer-subheading">Blogs</span>
+            </h6>
+            <ul class="list-unstyled text-white-50 footer-ul">
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <div class="footer-links">
+                    Scheduled Service
+                    <p class="blog-text p-0 m-0">
+                      Nulla Lorem mollit cupidatat ....
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="" class="text-white-50 text-decoration-none">
+                  <div class="footer-links">
+                    Scheduled Service
+                    <p class="blog-text p-0 m-0">
+                      Nulla Lorem mollit cupidatat ....
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <div class="d-flex">
+              <div class="d-flex justify-content-end">
+                <img
+                  src="./assets/images/icons/address.svg"
+                  alt=""
+                  height="20"
+                  width="20"
+                />
+              </div>
+              <div class="w-75 ps-2">
+                <h6>
+                  <span class="footer-subheading">Address</span>
+                </h6>
+                <p class="text-white-50">
+                  1003-4-5, Tower-1, DLF Corporate Greens, Sector 74A, Gurugram,
+                  Haryana 122018
+                </p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="d-flex justify-content-end">
+                <img
+                  src="./assets/images/icons/ion_call.svg"
+                  alt=""
+                  height="20"
+                  width="20"
+                />
+              </div>
+              <div class="w-75 ps-2">
+                <h6>
+                  <span class="footer-subheading">Contact</span>
+                </h6>
+                <p class="text-white-50">+91 xxxx xxxxxx</p>
+                <p class="text-white-50">+91 xxxx xxxxxx</p>
+                <p class="text-white-50">+91 xxxx xxxxxx</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-terms-rights">
+        <div class="container">
+          <nav class="navbar d-flex justify-content-center">
+            <span class="navbar-text text-white-50"
+              >© 2023 Autoz365 | All Rights Reserved</span
+            >
+            <div class="ms-lg-auto">
+              <a href="" class="me-2 text-decoration-none">
+                <span class="navbar-text text-white-50 p-0">T&C</span>
+              </a>
+              <a href="" class="me-2 text-decoration-none">
+                <span class="navbar-text text-white-50 p-0">Sitemap</span>
+              </a>
+              <a href="" class="me-2 text-decoration-none">
+                <span class="navbar-text text-white-50 p-0"
+                  >Privacy Policy</span
+                >
+              </a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

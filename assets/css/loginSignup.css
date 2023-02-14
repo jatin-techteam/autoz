@@ -1,0 +1,66 @@
+.login-signup-section {
+  display: flex;
+  justify-content: space-between;
+}
+.login-form {
+  width: 40%;
+  border-radius: 0.75em;
+}
+.signup-options {
+  width: 55%;
+  border-radius: 0.75em;
+}
+.forget-password {
+  color: var(--text-red-color);
+}
+
+.registration {
+  color: var(--text-black-color);
+  text-decoration: none;
+}
+.registration:hover {
+  color: var(--text-black-color);
+  text-decoration: none;
+}
+
+.registration .registration-img {
+  width: 25%;
+}
+.registration-text {
+  width: 75%;
+}
+
+.registration .registration-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.registration .registration-text h5 span {
+  color: var(--text-red-color);
+}
+
+/* -------- media query ------------------------- */
+@media only screen and (max-width: 990px) {
+  .login-signup-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .login-form {
+    width: 100%;
+  }
+  .signup-options {
+    margin-top: 1em;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .registration .registration-img {
+    width: 25%;
+    font-size: 0.75rem;
+  }
+  .registration-text {
+    width: 75%;
+    font-size: 0.75rem;
+  }
+}
